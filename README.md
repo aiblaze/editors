@@ -1,74 +1,52 @@
-# Cursor Notepads Collection
+让 Cursor 更符合国情更好用。
 
-这是一个用于分享 Cursor Notepads 常用模板和最佳实践的集合。Cursor Notepads 是一个强大的上下文共享工具，可以在 Composer 和 Chat 交互之间建立桥梁。
+## 规则（Rules）
 
-## 什么是 Cursor Notepads？
 
-Cursor Notepads 是一个增强的参考文档工具，它超越了 `.cursorrules` 的功能，允许你为开发工作流创建可重用的上下文。它可以：
+### 全局规则（User Rules）
 
-- 在不同开发环境部分之间共享上下文
-- 使用 `@` 语法引用
-- 支持文件附件
-- 作为各种开发场景的动态模板
+使用方法：打开 `cursor` 设置界面，在 `Rules` 界面的 `User Rules` 输入框中输入上面的内容。
 
-## 目录结构
+通用规则：
 
 ```
-.
-├── templates/          # 通用模板集合
-│   ├── api/           # API 开发相关模板
-│   ├── frontend/      # 前端开发相关模板
-│   └── backend/       # 后端开发相关模板
-├── best-practices/    # 最佳实践指南
-└── examples/         # 示例集合
+- Follow the user's requirements exactly as provided.
+- Begin by outlining a detailed, step-by-step plan using comprehensive pseudocode.
+- Once the plan is confirmed, proceed to write the code.
+- Write code that is correct, up-to-date, bug-free, fully functional, secure, performant, and efficient.
+- Prioritize readability and maintainability; use descriptive, friendly, and clear variable and function names.
+- Include all necessary documentation and inline comments to explain your code.
+- Fully implement all requested functionality without leaving any TODOs, placeholders, or missing pieces.
+- Be concise and minimize any extraneous prose.
+- If a correct solution is not possible or if you are uncertain, state that clearly instead of guessing.
 ```
 
-## 使用指南
+中文优先，可加下面规则：
 
-1. 在 Cursor 中点击 Notepads 部分的 "+" 按钮
-2. 为你的 notepad 指定一个有意义的名称
-3. 添加内容、上下文、文件和其他相关信息
-4. 在 composers 或 chat 中使用 `@` 引用
+```
+- When outputting the results, translate them into idiomatic Chinese and follow good Chinese and English typesetting habits.
+- When accepting input, if the input information is not in English, first translate it into idiomatic English.
 
-## 最佳实践
+```
 
-### 适合写入 Notepads 的内容
+使用空格代替 Tab，缩进为 2 个空格（避免它返回 4 个空格缩进的代码）：
 
-- 项目架构决策
-- 开发指南和标准
-- 可重用代码模板
-- 需要频繁引用的文档
-- 团队特定的约定和规则
+```
+- Use spaces (Space) instead of tabs (Tab), and use two spaces uniformly for indentation.
+```
 
-### 不适合写入 Notepads 的内容
+更美观的中英文混排：
 
-- 临时笔记或草稿
-- 属于版本控制的信息（如 git）
-- 敏感数据或凭证
-- 频繁变化的信息
+```
+- Use Chinese punctuation for Chinese context.
+- A space should be added between Chinese characters and English, and between Chinese characters and Arabic numerals.
+- No spaces should be added between Chinese character punctuation and English, Chinese character punctuation and Arabic numerals.
+- No spaces are added between Chinese characters and half-width punctuation.
+- No spaces should be used between formatted parts of Chinese characters (e.g. bold, italics, colors, upper and lower corner markers, hyperlinkes, etc.) and unformatted parts.
+```
 
-### 推荐格式
+## Notepads
 
-- 使用清晰的标题和章节
-- 包含相关示例
-- 保持内容重点突出且组织有序
-- 使用 markdown 格式提高可读性
-- 必要时添加相关文件附件
+Cursor Notepads 是一个强大的上下文共享工具，可以在 Composer 和 Chat 交互之间建立桥梁。
 
-## 贡献指南
-
-欢迎提交 Pull Request 来分享你的 Notepads 模板和最佳实践。在提交时，请确保：
-
-1. 遵循现有的目录结构
-2. 提供清晰的文档说明
-3. 包含实际使用示例
-4. 使用 markdown 格式
-
-## 许可证
-
-CC0 1.0 Universal
-
-## 参考
-
-- [Cursor Notepads 官方文档](https://docs.cursor.com/beta/notepads)
-
+详参：[README.md](./notepads/README.md)
