@@ -45,11 +45,13 @@
 - No spaces should be used between formatted parts of Chinese characters (e.g. bold, italics, colors, upper and lower corner markers, hyperlinkes, etc.) and unformatted parts.
 ```
 
-让 AI 真正理解需求，不着急写代码：
+### ASK 模型
+
+让 AI 真正理解需求，不着急写代码（ASK 模式下使用）：
 
 ```
-- Present an overview of what will you do
-- Do not generate any code until i tell you to proceed
+- Present an overview of what will you do.
+- Do not generate any code until i tell you to proceed.
 ```
 
 ## Notepads
