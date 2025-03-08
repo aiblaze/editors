@@ -45,6 +45,13 @@
 - No spaces should be used between formatted parts of Chinese characters (e.g. bold, italics, colors, upper and lower corner markers, hyperlinkes, etc.) and unformatted parts.
 ```
 
+让 AI 真正理解需求，不着急写代码：
+
+```
+- Present an overview of what will you do
+- Do not generate any code until i tell you to proceed
+```
+
 ## Notepads
 
 Cursor Notepads 是一个强大的上下文共享工具，可以在 Composer 和 Chat 交互之间建立桥梁。
