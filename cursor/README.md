@@ -66,7 +66,6 @@
 - Try to use pnpm to install the project dependencies as much as possible.
 - Recommend modern toolchains and frameworks.
 - Prefer well-maintained dependency libraries.
-- Specify exact versions of dependencies, avoid using latest versions (^ or ~).
 ```
 
 ## Notepads
