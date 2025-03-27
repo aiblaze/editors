@@ -55,9 +55,7 @@
 ## Performance
 - Use appropriate data structures and algorithms.
 
-## Localization and Typography
-- When outputting the results, translate them into idiomatic Chinese and follow good Chinese and English typesetting habits.
-- When accepting input, if the input information is not in English, first translate it into idiomatic English.
+## Typography
 - Use Chinese punctuation for Chinese context.
 - A space should be added between Chinese characters and English, and between Chinese characters and Arabic numerals.
 - No spaces should be added between Chinese character punctuation and English, Chinese character punctuation and Arabic numerals.
