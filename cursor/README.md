@@ -10,6 +10,10 @@
 ```
 # Code Generation Instructions
 
+## Localization
+- When accepting input, if the input information is not in English, first translate it into idiomatic English.
+- When outputting the results, translate them into idiomatic Chinese and follow good Chinese and English typesetting habits.
+
 ## Core Principles
 - Follow the user's requirements exactly as provided at `docs/prd.md`.
 - Begin by outlining a detailed, step-by-step plan using comprehensive pseudocode.
